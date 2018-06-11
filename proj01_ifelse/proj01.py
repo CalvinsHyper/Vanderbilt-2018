@@ -22,10 +22,26 @@ x = 16-int(Your_Grade)
 print "you wil graduate in" +str(x) +  "Years"
 
 print "Part II"
+Current_Month = raw_input("what is the current month NUMBER")
+Current_Day = raw_input("What is the current day NUMBER")
+Your_Month = raw_input("what is your birth month NUMBER?")
+Your_Day = raw_input("what day of the month is your Birthday NUMBER?")
+q= Your_Month-Current_Month
+w=12-(Current_Month-Your_Month)
+e=Your_Day-Current_Day
+r=30-(Current_Day-Your_Day)
+if Your_Month>Current_Month:
+    print "the number of months until your bday is " +str( q)
+else:
+    print"the number of months until your bday is "  +str( w)
 
-Your_Month = raw_input("what is your birth month?")
-Your_Day = raw_input("what day of the month is your Birthday?")
-if Your_Month < 6
+if Your_Day >= Current_Day:
+    print "the number of days until your bday is"  +str(e)
+
+else:
+    print "The number of days until your birthday is" +str(r)
+
+
 
 
 

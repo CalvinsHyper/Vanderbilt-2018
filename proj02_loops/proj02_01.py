@@ -16,4 +16,28 @@
 # Enter a number to sum, or 0 to indicate you are finished: 2
 # Enter a number to sum, or 0 to indicate you are finished: 10
 # Enter a number to sum, or 0 to indicate you are finished: 0
-#The sum of your numbers is: 21
+#The sum of your numbers is: 21loop_number = 0
+loop_number = 0
+x = 1
+sum = 0
+while loop_number < 10 and x != 0:
+    x = int(raw_input("enter numbers that you want to sum"))
+    sum = sum + x
+    loop_number = loop_number + 1
+print"your sum is" + str(sum)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
